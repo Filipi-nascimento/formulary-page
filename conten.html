@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulary</title>
+</head>
+<body>
+    <div class="">
+        <h1>Resgistration Form</h1>
+        <p>Please fill out this form with the required information</p>
+        <form id="formulary">
+            <fieldset>
+                <label for="name">Name: <input id="name" type="text" placeholder="Name" required/></label>
+                <label for="email">Email: <input id="email" type="email" placeholder="email" required/></label>
+                <label for="password">Password: <input id="password" type="password" placeholder="password" required/></label>
+            </fieldset>
+            <fieldset>
+                <label for="account-personal"><input id="account-personal" class="inline" type="radio" name="account-type" > Personal Account</label>
+                <label for="account-business"><input id="account-business" class="inline" type="radio" name="account-type" > Business Account</label>
+            </fieldset>
+            <fieldset>
+                <label for="age"><input id="age" class="inline" type="checkbox" required> I'm over 18 years old </label>
+                <label for="condictions"><input id="condiction" class="inline" type="checkbox" required> I accept the terms and conditions</label>
+            </fieldset>
+            <input id="submit" type="submit" value="submit">
+        </form>
+        <p>surivbl</p>
+    </div>
+</body>
+</html>

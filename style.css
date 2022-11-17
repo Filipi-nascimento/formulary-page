@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1, p {
+    text-align: center;
+}
+form {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+fieldset {
+    border: none;
+}
+label {
+    display: block;
+    margin: 1rem;
+}
+input {
+    width: 100%;
+}
+.inline {
+    width: unset;
+}
+input[type="submit"] {
+    display: block;
+    width: 30%;
+    height: 30px;
+    background-color: rgb(60, 209, 60);
+    margin: 10px auto;
+    border-color: rgb(60, 209, 60);
+}

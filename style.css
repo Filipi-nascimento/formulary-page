@@ -1,9 +1,11 @@
+* {box-sizing: border-box;}
+
 body {
-    background-color: black;
-    color: white;
+    background-image: linear-gradient(180deg, #076585, #FFFFFF);
 }
 h1, p {
     text-align: center;
+    display: block;
 }
 form {
     width: 500px;
@@ -12,8 +14,9 @@ form {
     color: black;
     margin: 0 auto;
     border-radius: 5%;
+    margin-bottom: 30px;
 }
-fieldset {
+.content-form {
     border: none;
 }
 label {
@@ -26,6 +29,9 @@ input {
 .inline {
     width: unset;
 }
+.content-business, .content-personal {
+    width: 100%;
+}
 input[type="submit"] {
     display: block;
     width: 30%;
@@ -34,3 +40,43 @@ input[type="submit"] {
     margin: 10px auto;
     border-color: rgb(60, 209, 60);
 }
+#all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+#all img {
+    width: 40%;
+    max-width: 350px;
+    height: 40%;
+    object-fit: cover;
+}
+.about {
+    display: inline-block;
+    margin-left: 90px;
+    width: 300px;
+}
+.github {
+    display: inline-block;
+    width: 150px;
+    margin-top: 50px;
+}
+.github, .about {
+    border: none;
+}
+/* h1[class=about-more] {
+    margin: 1px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+} */
+p[class=about-more] {
+    margin: 1px;
+    padding-top: 0px;
+}
+/* figcaption {
+    
+} */

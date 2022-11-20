@@ -9,24 +9,38 @@
 </head>
 <body>
     <div class="">
-        <h1>Resgistration Form</h1>
-        <p>Please fill out this form with the required information</p>
-        <form id="formulary">
-            <fieldset>
+        <header>
+            <h1>Resgistration Form</h1>
+            <p>Please fill out this form with the required information</p>
+        </header>
+        <form>
+            <fieldset class="content-form">
                 <label for="name">Name: <input id="name" type="text" placeholder="Name" required/></label>
                 <label for="email">Email: <input id="email" type="email" placeholder="email" required/></label>
                 <label for="password">Password: <input id="password" type="password" placeholder="password" required/></label>
             </fieldset>
-            <fieldset>
+            <fieldset class="content-form">
                 <label for="account-personal"><input id="account-personal" class="inline" type="radio" name="account-type" > Personal Account</label>
                 <label for="account-business"><input id="account-business" class="inline" type="radio" name="account-type" > Business Account</label>
             </fieldset>
-            <fieldset>
+            <fieldset class="content-form">
                 <label for="age"><input id="age" class="inline" type="checkbox" required> I'm over 18 years old </label>
                 <label for="condictions"><input id="condiction" class="inline" type="checkbox" required> I accept the terms and conditions</label>
             </fieldset>
             <input id="submit" type="submit" value="submit">
         </form>
+        <div id="all">
+            <fieldset class="about">
+                <h1 class="about-more">About</h1>
+                <p class="about-more">Hi folks! My name is Filipe and i from Brazil - São Paulo. This is my first project in HTML and CSS. I am learning</p>
+            </fieldset>
+            <fieldset class="github">
+                <a href="https://github.com/Filipi-nascimento">
+                <img src="img/github.png" alt="icon-github">
+                </a>
+                <figcaption>Git Hub</figcaption>
+            </fieldset>
+        </div>
         <p>surivbl</p>
     </div>
 </body>
